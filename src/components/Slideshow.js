@@ -36,7 +36,7 @@ const Slideshow = () => {
 
 
   return (
-    <center><div className="slide-container" style={{ width: 700, marginTop: 100 }}>
+    <center><div className="slide-container" style={{ width: '100%', marginTop: 100 }}>
       <Fade {...properties}>
         {fadeImages.map((fadeImage, index) => (
           <div className="each-fade" key={index} >

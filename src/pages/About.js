@@ -2,10 +2,10 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div style={{ fontFamily: 'Kodchasan', marginTop: 50 }}>
-      <h1 style={{ fontSize: '6rem', margin: 0, textAlign: 'center' }}>Who <span style={{ color: '#FCAB2B' }}>Am I ?</span></h1>
+    <div style={{ fontFamily: 'Kodchasan', marginTop: 50,maxWidth: 1200,marginLeft:'auto',marginRight:'auto' }}>
+      <h1 className='fontHead' >Who <span style={{ color: '#FCAB2B' }}>Am I ?</span></h1>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <p style={{ textAlign: 'center', paddingLeft: 150, paddingRight: 150 }}>An enthusiastic fresher who is highly motivated, eager to learn new things is seeking a
+        <p style={{ textAlign: 'center', }}>An enthusiastic fresher who is highly motivated, eager to learn new things is seeking a
           challenging position in the field of Web Developer,  App Developer,  UI/UX Designer, so as
           to utilize my skills for organization and individual growth.As I am determined to work and
           improve my individual abilities to benefit my future and the organization am sure my explanation
@@ -15,7 +15,7 @@ const About = () => {
           Download Cv</button></a>
       </div>
  
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <div className='devContainer'>
         <div  style={{ padding: '4rem', backgroundColor: '#FCAB2B', margin: '1.8rem', borderRadius: 5 }}><b>Web Developer</b></div>
         <div  style={{ padding: '4rem', backgroundColor: '#FCAB2B', margin: '1.8rem', borderRadius: 5 }}><b>App Developer</b></div>
         <div  style={{ padding: '4rem', backgroundColor: '#FCAB2B', margin: '1.8rem', borderRadius: 5 }}><b>UI/UX Desighner</b></div>
