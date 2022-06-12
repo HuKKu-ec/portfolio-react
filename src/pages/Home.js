@@ -6,9 +6,9 @@ const Home = () => {
         <h1 className='heading'>Hy! I Am</h1>
         <h1 className='heading'>Hukbath Ec</h1>
         <p className='subHeading'>Web Developer | App Developer | UI/UX Desighner</p>
-        <button className='hireButton'>
+        <Link to='/contact'><button className='hireButton'>
           Hire me
-        </button>
+        </button></Link>
       </div>
       <div className='imageConatainer'>
         {/* <img style={{position:'absolute',}} src='icfacebook.png' alt='' /> */}
