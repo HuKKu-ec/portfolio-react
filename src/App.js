@@ -17,19 +17,18 @@ import Skills from './pages/Skills';
 function App() {
   return (
     <div >
-    
-      <BrowserRouter>
 
+      <BrowserRouter>
         <Headers />
         <div style={{ margin: 25 }}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="experience" element={<Experience />} />
-          <Route path="achievements" element={<Achievements />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="skills" element={<Skills />} />
-        </Routes>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="experience" element={<Experience />} />
+            <Route path="achievements" element={<Achievements />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="skills" element={<Skills />} />
+          </Routes>
         </div>
       </BrowserRouter></div>
   );

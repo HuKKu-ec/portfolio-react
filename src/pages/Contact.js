@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div style={{ fontFamily: 'Kodchasan', marginTop: 50, }}>
       <h1 className='fontHead'><span style={{ color: '#FCAB2B' }}>Contacts</span></h1>
-      <div style={{ maxWidth: 1200,marginLeft:'auto',margin:'auto' }}>
+      <div style={{ maxWidth: 1200, marginLeft: 'auto', margin: 'auto' }}>
         <table>
           <tr style={{ height: 70 }}>
             <td><img alt='whatsapp' src='icwhatsapp.png' style={{}}></img></td>
