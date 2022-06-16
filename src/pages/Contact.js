@@ -6,6 +6,7 @@ const Contact = () => {
       <h1 className='fontHead'><span style={{ color: '#FCAB2B' }}>Contacts</span></h1>
       <div style={{ maxWidth: 1200, marginLeft: 'auto', margin: 'auto' }}>
         <table>
+          <tbody>
           <tr style={{ height: 70 }}>
             <td><img alt='whatsapp' src='icwhatsapp.png' style={{}}></img></td>
             <td style={{ textAlign: 'left', padding: 5 }}><b><a style={{ all: 'unset' }} href="https://api.whatsapp.com/send?phone=9633373457&text=Hello%2C%20World!">9633373457</a></b><br></br></td>
@@ -27,6 +28,7 @@ const Contact = () => {
             <td><img alt='github' src='icgithub.png'></img></td>
             <td style={{ textAlign: 'left', padding: 5 }}><b><a style={{ all: 'unset' }} href='https://github.com/HuKKu-ec'>HuKKu-ec</a></b><br></br></td>
           </tr>
+          </tbody>
         </table>
 
 
