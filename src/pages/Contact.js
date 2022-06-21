@@ -1,6 +1,6 @@
-import React from 'react'
 
 const Contact = () => {
+
   return (
     <div style={{ fontFamily: 'Kodchasan', marginTop: 50, }}>
       <h1 className='fontHead'><span style={{ color: '#FCAB2B' }}>Contacts</span></h1>
@@ -30,8 +30,6 @@ const Contact = () => {
           </tr>
           </tbody>
         </table>
-
-
       </div>
     </div>
   )
