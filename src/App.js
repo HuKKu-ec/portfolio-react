@@ -3,7 +3,7 @@ import './App.css';
 import {
   BrowserRouter,
   Route,
-  Routes
+  Routes,Navigate
 } from "react-router-dom";
 import About from "./pages/About";
 import Home from "./pages/Home";
@@ -28,6 +28,8 @@ function App() {
             <Route path="achievements" element={<Achievements />} />
             <Route path="contact" element={<Contact />} />
             <Route path="skills" element={<Skills />} />
+            <Route path="*" element={<Navigate to="/"/>} />
+
           </Routes>
         </div>
       </BrowserRouter></div>
