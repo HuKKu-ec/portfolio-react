@@ -1,23 +1,16 @@
-
 import './App.css';
-import {
-  BrowserRouter,
-  Route,
-  Routes,Navigate
-} from "react-router-dom";
-import About from "./pages/About";
-import Home from "./pages/Home";
-import Headers from "./components/Header";
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
+import About from './pages/About';
+import Home from './pages/Home';
+import Headers from './components/Header';
 import Experience from './pages/Experience';
 import Contact from './pages/Contact';
 import Achievements from './pages/Achievements';
 import Skills from './pages/Skills';
 
-
 function App() {
   return (
-    <div >
-
+    <div>
       <BrowserRouter>
         <Headers />
         <div style={{ margin: 25 }}>
@@ -28,11 +21,11 @@ function App() {
             <Route path="achievements" element={<Achievements />} />
             <Route path="contact" element={<Contact />} />
             <Route path="skills" element={<Skills />} />
-            <Route path="*" element={<Navigate to="/"/>} />
-
+            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </div>
-      </BrowserRouter></div>
+      </BrowserRouter>
+    </div>
   );
 }
 
